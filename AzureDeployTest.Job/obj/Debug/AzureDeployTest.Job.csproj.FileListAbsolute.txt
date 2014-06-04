@@ -1,0 +1,17 @@
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\AzureDeployTest.Job.exe.config
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\AzureDeployTest.Job.exe
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\AzureDeployTest.Job.pdb
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Loggly.dll
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Newtonsoft.Json.dll
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Serilog.dll
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Serilog.FullNetFx.dll
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Serilog.Sinks.Loggly.dll
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Newtonsoft.Json.xml
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Serilog.pdb
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Serilog.xml
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Serilog.FullNetFx.pdb
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Serilog.FullNetFx.xml
+C:\AzureDeployTest\AzureDeployTest.Job\bin\Debug\Serilog.Sinks.Loggly.xml
+C:\AzureDeployTest\AzureDeployTest.Job\obj\Debug\AzureDeployTest.Job.csprojResolveAssemblyReference.cache
+C:\AzureDeployTest\AzureDeployTest.Job\obj\Debug\AzureDeployTest.Job.exe
+C:\AzureDeployTest\AzureDeployTest.Job\obj\Debug\AzureDeployTest.Job.pdb
