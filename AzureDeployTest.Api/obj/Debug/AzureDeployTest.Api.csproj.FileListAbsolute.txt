@@ -1,0 +1,10 @@
+C:\AzureDeployTest\code\AzureDeployTest.Api\bin\AzureDeployTest.Api.dll.config
+C:\AzureDeployTest\code\AzureDeployTest.Api\bin\AzureDeployTest.Api.dll
+C:\AzureDeployTest\code\AzureDeployTest.Api\bin\AzureDeployTest.Api.pdb
+C:\AzureDeployTest\code\AzureDeployTest.Api\bin\Nancy.dll
+C:\AzureDeployTest\code\AzureDeployTest.Api\bin\Nancy.Hosting.Aspnet.dll
+C:\AzureDeployTest\code\AzureDeployTest.Api\bin\Nancy.xml
+C:\AzureDeployTest\code\AzureDeployTest.Api\bin\Nancy.Hosting.Aspnet.xml
+C:\AzureDeployTest\code\AzureDeployTest.Api\obj\Debug\AzureDeployTest.Api.csprojResolveAssemblyReference.cache
+C:\AzureDeployTest\code\AzureDeployTest.Api\obj\Debug\AzureDeployTest.Api.dll
+C:\AzureDeployTest\code\AzureDeployTest.Api\obj\Debug\AzureDeployTest.Api.pdb
