@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Serilog.Sinks.Loggly</name>
+    </assembly>
+    <members>
+        <member name="T:Serilog.LoggerConfigurationLogglyExtensions">
+            <summary>
+            Adds the WriteTo.Loggly() extension method to <see cref="T:Serilog.LoggerConfiguration"/>.
+            </summary>
+        </member>
+        <member name="M:Serilog.LoggerConfigurationLogglyExtensions.Loggly(Serilog.Configuration.LoggerSinkConfiguration,System.String,Serilog.Events.LogEventLevel,System.IFormatProvider)">
+            <summary>
+            Adds a sink that writes log events to the Loggly.com webservice. Properties are being send as data and the level is used as category.
+            </summary>
+            <param name="loggerConfiguration">The logger configuration.</param>
+            <param name="inputKey">The input key as found on the Loggly.com website. Make sure to select an HTTP input with JSON enabled.</param>
+            <param name="restrictedToMinimumLevel">The minimum log event level required in order to write an event to the sink.</param>
+            <param name="formatProvider">Supplies culture-specific formatting information, or null.</param>
+            <returns>Logger configuration, allowing configuration to continue.</returns>
+            <exception cref="T:System.ArgumentNullException">A required parameter is null.</exception>
+        </member>
+        <member name="T:Serilog.Sinks.Loggly.LogglyPropertyFormatter">
+            <summary>
+            Converts <see cref="T:Serilog.Events.LogEventProperty"/> values into simple scalars,
+            that render well in Loggly.
+            </summary>
+        </member>
+        <member name="M:Serilog.Sinks.Loggly.LogglyPropertyFormatter.Simplify(Serilog.Events.LogEventPropertyValue)">
+            <summary>
+            Simplify the object so as to make handling the serialized
+            representation easier.
+            </summary>
+            <param name="value">The value to simplify (possibly null).</param>
+            <returns>A simplified representation.</returns>
+        </member>
+        <member name="T:Serilog.Sinks.Loggly.LogglySink">
+            <summary>
+            Writes log events to the Loggly.com service.
+            </summary>
+        </member>
+        <member name="M:Serilog.Sinks.Loggly.LogglySink.#ctor(System.IFormatProvider,System.String)">
+            <summary>
+            Construct a sink that saves logs to the specified storage account. Properties are being send as data and the level is used as tag.
+            </summary>
+             <param name="formatProvider">Supplies culture-specific formatting information, or null.</param>
+            <param name="inputKey">The input key as found on the Loggly website.</param>
+        </member>
+        <member name="M:Serilog.Sinks.Loggly.LogglySink.Emit(Serilog.Events.LogEvent)">
+            <summary>
+            Emit the provided log event to the sink.
+            </summary>
+            <param name="logEvent">The log event to write.</param>
+        </member>
+    </members>
+</doc>
